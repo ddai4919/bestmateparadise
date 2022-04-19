@@ -55,6 +55,19 @@
 
 
 }
+/* Location */
+@media(max-width:1100px){
+    .location-wrapper{
+        display: block;
+        width: 80vw;
+
+    }
+    .location-card{
+        margin: auto;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
 /* Navigation bar */
 @media (max-width:850px){
     .navigation{
