@@ -118,3 +118,36 @@
         padding-bottom:30px;
     }
 }
+
+/* About */
+.about-row-medium{
+    display: none;
+}
+@media(max-width:1180px){
+    .about-row{
+        display: none;
+    }
+    .about-row-medium{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+}
+@media(max-width:880px){
+    .about-row-medium{
+        display: none;
+    }.about-row{
+        display: block;
+    }
+    .about-card{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+/* Login */
+@media(max-width:1400px){
+    .login-wrapper{
+        width: 80vw;
+    }
+}
