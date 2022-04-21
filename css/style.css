@@ -9,6 +9,8 @@ a{
 a:hover{
     text-decoration: underline;
 }
+.btn-video:hover{
+}
 .btn{
     background-color: #33658A;
     width: 30px;
@@ -81,6 +83,7 @@ ul{
     font-size: 35px;
     max-width: 400px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .btn-video{
     background-color: #33658A;
@@ -94,10 +97,11 @@ ul{
     align-items: center;
     border-radius: 10px;
     font-size: 25px; 
-    margin-top: 30px;
 }
-
-
+.test{
+    width: fit-content;
+    height: fit-content;
+}
 
 .location-section{
     background-color: #E4DDDD;
@@ -125,11 +129,15 @@ img{
 }
 .location-card{
     width: 200px;
-    border: 1px solid black;
+    border: 5px solid black;
     text-align: center;
     height:auto;
     border-radius: 8px;
     overflow: hidden;
+}
+.location-card:hover{
+    cursor: pointer;
+    border: 10px solid #F6AE2D;
 }
 .location-section h1{
     margin-bottom: 30px;
@@ -155,6 +163,8 @@ img{
     padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 10px;
+    -webkit-box-shadow: 9px 1px 19px 2px #000000; 
+    box-shadow: 9px 1px 19px 2px #000000;
 }
 .faq-wrapper{
     margin-top: 30px;
@@ -167,12 +177,19 @@ img{
     margin-bottom: 30px;
 }
 
+
+.enquiries{
+   padding-top: 30px;
+}
 .enquiries-wrapper{
     max-width: 1400px;
     border: 1px solid black;
     margin: auto;
     margin-bottom: 50px;
     padding-bottom: 50px;
+    -webkit-box-shadow: 9px 1px 19px 2px #000000; 
+    box-shadow: 9px 1px 19px 2px #000000;
+    border-radius: 20px;
 }
 .enquiries .first{
     text-align: center;
@@ -252,9 +269,9 @@ textarea{
     margin: auto;
 }
 .about-card{
-    border: 1px solid black;
     width: fit-content;
     border-radius: 10px;
+    border: 1px solid black;
 }
 .about-row{
     display: flex;
@@ -288,7 +305,8 @@ textarea{
 
 .login-wrapper{
     width: fit-content;
-    border: 1px solid black;
+    border: 5px solid black;
+    
 }
 .login-wrapper{
     padding-left: 30px;
