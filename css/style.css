@@ -418,6 +418,20 @@ margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
 }
+
+.sitemap-tree-wrapper ul {
+    display: block;
+    padding: 1.5%;
+}
+
+.sitemap-tree-wrapper li {
+    display: block;
+}
+
+.sitemap-tree-wrapper a {
+    text-decoration: underline;
+}
+
 .review-wrapper{
     width: 1400px;
     margin: auto;
@@ -437,7 +451,6 @@ margin-bottom: 20px;
     width: fit-content;
 }
 
-}
 .review-card p{
     width: 300px;
     text-align: center;
