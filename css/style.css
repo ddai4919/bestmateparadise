@@ -417,3 +417,16 @@ margin-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
 }
+
+.sitemap-tree-wrapper ul {
+    display: block;
+    padding: 1.5%;
+}
+
+.sitemap-tree-wrapper li {
+    display: block;
+}
+
+.sitemap-tree-wrapper a {
+    text-decoration: underline;
+}
