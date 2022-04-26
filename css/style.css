@@ -31,6 +31,7 @@ a:hover{
 ul li{
     display: inline;
     margin-right: 30px;
+
 }
 ul{
     display: inline;
@@ -107,7 +108,7 @@ ul{
 .location-section{
     background-color: #E4DDDD;
     height: auto;
-    border: 1px solid  transparent;
+    border: 1px sol
 }
 .location-section h1{
     font-size: 60px;
@@ -429,4 +430,52 @@ margin-bottom: 20px;
 
 .sitemap-tree-wrapper a {
     text-decoration: underline;
+}
+
+.review-wrapper{
+    width: 1400px;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.review-card{
+    margin-top: 50px;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    -webkit-box-shadow: 9px 1px 19px 2px #000000; 
+    box-shadow: 9px 1px 19px 2px #000000;
+    width: fit-content;
+}
+
+.review-card p{
+    width: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+.review-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: auto;
+}
+.reviews .title{
+    text-align: center;
+    font-size: 60px;
+
+}
+.review-card h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.star{
+    width: 200px;
+    height: 75px;
+    margin: auto;
 }
