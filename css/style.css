@@ -55,7 +55,7 @@ ul{
 }
 .logo{
     font-size: 30px;
-    max-width: 35px;
+    max-width: fit-content;
 }
 
 .video-section{
@@ -448,13 +448,13 @@ margin-bottom: 20px;
     border-radius: 7px;
     -webkit-box-shadow: 9px 1px 19px 2px #000000; 
     box-shadow: 9px 1px 19px 2px #000000;
-    width: fit-content;
+    width: inherit;
 }
-
 .review-card p{
-    width: 300px;
     text-align: center;
     margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
 }
 .review-img{
     width: 200px;
@@ -478,4 +478,99 @@ margin-bottom: 20px;
     width: 200px;
     height: 75px;
     margin: auto;
+}
+
+/* Sitemap */
+.sitemap-diagram h2{
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.sitemap-diagram{
+    max-width: 1400px;
+    margin: auto;
+}
+.sitemap-tree-wrapper{
+    width: 1400px;
+    margin: auto;
+}
+.sitemap-list{
+    margin-left: -1.5%;
+}
+
+
+/* Reviews */
+@media(max-width:1400px){
+    .review-wrapper{
+        width: 100vw;
+    }
+    .review-card{
+        width: 80vw;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+/* Property images */
+.property-images{
+    background-color:#E4DDDD;
+    padding-bottom: 30px;
+}
+.property-images h1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-img{
+    width: 1400px;
+    margin: auto;
+    height: 700px;
+    background-color: black;
+}  
+
+/* Facilities */
+.property-facilities{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.facilities-title{
+    font-size: 60px;
+    text-align: center;
+}
+.facilities-row{
+    width: 1400px;
+    margin: auto;
+
+}
+.facilities-card-img{
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.facilities-card{
+    width: fit-content;
+}
+.facilities-row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+
+/* Book room */
+.book-room{
+    background-color: #FFF9EB;
+}
+.book-room-title{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

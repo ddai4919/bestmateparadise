@@ -4,25 +4,32 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/mobile.css">
         <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
     </head>
     <body>
         <div class="navbar-wrapper">
             <div class="navbar">
-                <div class="logo">BestMate Paradise</div>
+                <a href="#"><div class="logo">BestMate Paradise</div></a>
                 <div class="navigation">
                     <ul>
-                        <li>Locations</li>
-                        <li><a href="#contact">Contact us</a></li>Sign in/ Sign up
-                        <li><a href="./html/about.html">About us</a></li>
-                        <li id="last"><a href="./profile.html"><div  class="btn">Manage Profile</div> </a></li>
+                        <li><a href="./dashboard.html#location">Locations</a></li>
+                        <li><a href="./dashboard.html#contact">Contact us</a></li>
+                        <li><a href="./pets.html">Pets list</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./sitemap.html">Sitemap</a></li>
                     </ul>
                 </div>
+                <div class="navigation"><a href="./profile.html"><div  class="btn">Manage profile</div> </a></div>
                 <div class="mobile">
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line middle"></div>
+                        <div class="line"></div>
+                    </div>
 
                 </div>
             </div>
@@ -33,7 +40,7 @@
                 <div class="video-descriptions">
                     <h1>Welcome to BestMate Paradise</h1>
                     <p>We provide a premium pet accomodation  at an affordable price.</p>
-                    <a class = "test" href="./html/about.html"><div class="btn-video">About us</div></a>
+                    <a class = "test" href="./about.html"><div class="btn-video">About us</div></a>
                 </div>
             </div>
         </div>
@@ -47,13 +54,13 @@
                 <div class = "video-mobile">  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8Y5SeZ9kHsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
             </div>
         </div>
-        <div class="location-section">
+        <div class="location-section" id="location">
             <h1>Find a Location</h1>
             <div class="location-wrapper">
-                <div class="location-card">
+                <a href="./location.html"><div class="location-card">
                     <div class="loc-img"><img src="./img/centraljpg"></img></div>
                     Central
-                </div>
+                </div></a>
                 <div class="location-card">
                     <div class="loc-img"><img src="./img/centraljpg"></img></div>
                     Central
