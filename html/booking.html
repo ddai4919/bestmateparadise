@@ -4,11 +4,11 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/mobile.css">
         <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
     </head>
     <body>
         <div class="navbar-wrapper">
@@ -33,44 +33,29 @@
                 </div>
             </div>
         </div>
-        <div class="sitemap-diagram">
-            <div class="sitemap-diagram-wrapper">
-                <h2>Sitemap Diagram</h2>
-                <img href="" alt="sitemap diagram">
+        <div class="booking-container">
+            <div class="head">
+                <h1>Booking form</h1>
+                <p>Before booking, please read our <a target="_blank" href="https://docs.google.com/document/d/1JRgs7JKr079cv86lVWBzgqNA2WDLZgxBm6CfTZyNcLQ/edit?usp=sharing"><span class="underline"> Terms and conditions</span></a></p>
             </div>
-        </div>
-        <div class="sitemap-tree">
-            <div class="sitemap-tree-wrapper">
-                <div class="sitemap-list">
-                    <ul>
-                        <li>
-                            <a href="../index.html">Home</a>
-                            <ul>
-                                <li><a href="./about.html">About us</a></li>
-                                <li><a href="./sign-in.html">Login</a>
-                                <ul>
-                                    <li><a href="forgot-password.html">Reset Password</a></li>
-                                </ul></li>
-                                <li><a href="">Locations</a>
-                                <ul>
-                                    <li><a href="">Rooms</a></li>
-                                </ul></li>
-                                <li><a href="dashboard.html">Dashboard</a>
-                                <ul>
-                                    <li>
-                                        <a href="profile.html">Profile</a>
-                                        <ul>
-                                            <li><a href="">Edit profile</a></li>
-                                        </ul>
-                                    </li>
-                                </ul></li>
-                                <li><a href="sitemap.html">Sitemap</a></li>
-                                </ul>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <form class="booking-form">
+                <label class="label">Starting date</label>
+                <input class="date-input" type="date">
+                <label class="label">Checkout date</label>
+                <input class="date-input" type="date">
+                <label class="label">Select your pet</label>
+                <p>If pet cannot be found, register pet</p>
+                <select id="pets" name="cars">
+                    <option value="volvo">Gary123</option>
+                    <option value="saab">Kimmy412</option>
+                    <option value="fiat">Will987</option>
+                  </select>
+                
+                  <div class="wrap">
+                    <a href="./confirm.html"><div class="confirm-btn">Continue</div></a>
+                  </div>
+            </form>
+            
         </div>
         <div class="footer">
             <div class="footer-wrapper">
