@@ -3,6 +3,6 @@ Footer links
 edit profile (profile.html) 
 transaction history in (profile.html)
 Privacy policy
-Hamburger menu onclick
+Hamburger menu onclick (manage profile, logout, login missing)
 Add pictures for facilities
 Register new pet
