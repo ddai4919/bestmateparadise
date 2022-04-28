@@ -5,3 +5,4 @@ transaction history in (profile.html)
 Privacy policy
 Hamburger menu onclick
 Add pictures for facilities
+Register new pet
